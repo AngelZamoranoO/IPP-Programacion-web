@@ -1,0 +1,71 @@
+/* Establece el tipo de fuente y un fondo de color suave para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Define el contenedor del formulario con un fondo blanco, sombra y bordes redondeados */
+.formulario-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Organiza los elementos del formulario en una columna */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+    margin-bottom: 8px;
+}
+
+/* Estilo común para campos de entrada de texto y área de texto */
+input, textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo específico para el campo de archivo (input[type="file"]) */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+/* Organiza los botones en una fila y proporciona un espacio uniforme entre ellos */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para los botones del formulario */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambia el color de fondo y texto al pasar el ratón sobre los botones */
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo para el texto del pie de página */
+.footer-text {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}

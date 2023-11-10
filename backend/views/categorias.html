@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categorias</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="formulario-container">
+      <form id="form-categorias" action="/backend/categorias.php" method="post">
+        <label for="catID">ID de la categoria:</label>
+        <input type="number" name="catName" id="catID" >
+
+        <label for="catName">ID de la categoria:</label>
+        <input type="text" name="catName" id="catName" >
+
+        <div class="buttons">
+            <button type="submit">Guardar</button>
+            <button type="button" onclick="location.href='/';">Cancelar</button>
+        </div>
+
+        <p class="footer-text">Angel Zamorano</p>
+
+      </form>
+    </div>
+
+
+  </body>
+</html>
