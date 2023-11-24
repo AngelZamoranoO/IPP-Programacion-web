@@ -11,27 +11,27 @@
     <div class="formulario-container">
         <form id="form-productos" action="/backend/productos.php" method="post">
             <label for="prodID">ID del producto:</label>
-            <input type="number" id="prodID" name="prodID" required>
+            <input type="number" id="prodID" name="ID producto" >
             <span class="mensaje-error" id="error-prodID"></span>   
 
             <label for="prodName">Nombre del producto</label>
-            <input type="text" name="prodName" id="prodName" required>
+            <input type="text" name="Nombre producto" id="prodNam" >
             <span class="mensaje-error" id="error-prodName"></span>  
             
             <label for="prodImage">Imagen del producto</label>
-            <input type="file" name="prodImage" id="prodImage" required>
+            <input type="file" name="Imagen producto" id="prodImage" >
             <span class="mensaje-error" id="error-prodImage"></span>  
 
             <label for="prodDesc">Descripcion del producto</label>
-            <input type="prodDesc" name="prodDesc" id="prodDesc" required>
+            <input type="prodDesc" name="Descripcion producto" id="prodDesc" >
             <span class="mensaje-error" id="error-prodDesc"></span>  
 
             <label for="prodPrice">Precio del producto</label>
-            <input type="number" name="prodPrice" id="prodPrice" required>
+            <input type="number" name="Precio producto" id="prodPrice" >
             <span class="mensaje-error" id="error-prodPrice"></span>  
 
             <label for="prodCat">Categoria del producto</label>
-            <input type="number" name="prodCat" id="prodCat" required>
+            <input type="number" name="Categoria producto" id="prodCat" >
             <span class="mensaje-error" id="error-prodCat"></span> 
             
             <div class="buttons">
@@ -43,6 +43,7 @@
         </form>
     
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../assets/js/validaciones.js"></script>
 </body>
 </html>
