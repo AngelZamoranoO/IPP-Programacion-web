@@ -1,11 +1,9 @@
 // espera que se carge el codigo html para luego ejecurar el codigo de js
-
 $(document).ready(function () {
   // Definimos la funcion para los formularios
   function validarFormulario(event) {
     // inicializa los campos vacios en el arreglo
     var camposVacios = [];
-
     // crea variable para ingresar nombre y apellido
     var nombreApellido = "Angel Zamorano";
 
@@ -32,9 +30,10 @@ $(document).ready(function () {
           "\n" +
           nombreApellido
       );
-    }
+    } 
   }
-  // Asocias la funcion validar con el evento submit
+
+
   // Agregamos el metodo submit  a todos los formularios
   $("#form-productos, #form-categorias").on("submit", validarFormulario);
 });
